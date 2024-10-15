@@ -150,12 +150,6 @@ export default {
       tipo: 'Página web',
       link: 'https://compromiso.sena.edu.co/index.php?text=inicio&id=1',
     },
-    {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      descarga: '/downloads/prueba.pdf',
-    },
   ],
   glosario: [
     {

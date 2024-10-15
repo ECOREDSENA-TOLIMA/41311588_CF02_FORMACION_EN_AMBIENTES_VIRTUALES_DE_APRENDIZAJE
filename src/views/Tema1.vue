@@ -37,27 +37,6 @@
       .video
         iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     
-    .titulo.mb-5(data-aos="flip-up")
-      img(src='@/assets/curso/temas/ico.svg', alt='Imagen decorativa')
-      h5.mb-0 Síntesis del video: Funciones del instructor
-    
-    .row.BG01.mb-4
-      .col-lg-12.col-12
-        .row.justify-content-center.align-items-center.mb-3(style="margin-inline:3em;")
-          .col-lg-8.col-8
-            li 
-              | #[b Servicio Nacional de Aprendizaje SENA]
-            br
-            p #[b Organizativa:] esta función requiere tiempo y dedicación, es en la que el instructor define la planeación, el cronograma, las normas del proceso formativo, entre otras.
-            p #[b Orientadora:] asesorar, orientar y guiar al aprendiz durante todo el proceso sobre las temáticas del programa, las estrategias de formación SENA y las técnicas para el correcto manejo del LMS. Es lo que enmarca la función orientadora, es la función en donde el instructor brinda el asesoramiento personalizado a los aprendices.
-            p #[b Social:] en el ser humano las relaciones interpersonales son muy importantes, pensando en esto, el instructor mantiene una comunicación permanente y continua con el aprendiz, siendo su objetivo el motivar y concientizar, logrando que el aprendiz alcance de forma amena y agradable su aprendizaje. 
-            p #[b Técnica:] el correcto y acertado manejo de la utilización de las herramientas del LMS es importante en el proceso formativo virtual, por ello el instructor tutor realiza la guía y orientación al aprendiz sobre estas herramientas, cumpliendo así con la función técnica.
-            p #[b Académica:] el dominio de las diferentes competencias del programa, así como el enfoque pedagógico y metodológico del SENA, dan la profundización del proceso formativo.
-
-          .col-lg-4.col-4
-            figure
-              img(src='@/assets/curso/temas/tema1/img3.png', alt='Imagen decorativa')
-    
     .row.justify-content-center.mb-5(data-aos="flip-up")
       .col-lg-12.col-12
         p La calidad en todos los procedimientos es un factor indispensable e importante. Por ello, la Institución SENA cuenta con lineamientos establecidos para el desarrollo asertivo de la gestión en Ambientes Virtuales de Aprendizaje, en adelante AVA, los cuales son de obligatorio cumplimiento. Descrito en el documento denominado “Guía de Orientaciones para la Formación en Ambientes Virtuales de Aprendizaje -AVA”, entrega las directrices que el instructor puede seguir, paso a paso en la aplicación de sus funciones, durante el proceso formativo virtual.
