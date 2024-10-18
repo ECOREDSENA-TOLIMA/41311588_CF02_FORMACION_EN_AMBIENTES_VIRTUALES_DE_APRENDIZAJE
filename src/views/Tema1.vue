@@ -26,7 +26,7 @@
               figure
                 img(src='@/assets/curso/temas/tema1/img2.svg', alt='Imagen decorativa')
             .col-lg-10
-              p.mb-0 El siguiente video, detallas las funciones que debe tener el instructor-tutor dentro de la formación virtual, la cual es orientada bajo los parámetros institucionales que tiene el SENA:
+              p.mb-0 El siguiente video, se detalla las funciones que debe tener el instructor-tutor dentro de la formación virtual, la cual es orientada bajo los parámetros institucionales que tiene el SENA:
     
     .row.justify-content-center.mb-5(data-aos="flip-up")
       .col-lg-12.col-12
@@ -35,7 +35,7 @@
 
     figure.mb-5(data-aos="zoom-in")
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/6l3cfGDRk5k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     
     .row.justify-content-center.mb-5(data-aos="flip-up")
       .col-lg-12.col-12
