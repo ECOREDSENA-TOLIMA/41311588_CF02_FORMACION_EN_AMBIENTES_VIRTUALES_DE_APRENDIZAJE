@@ -211,7 +211,7 @@ export default {
       titulo: 'ECOSISTEMA DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Claudia Patricia Aristizábal Gutiérrez',
+          nombre: 'Milady Tatiana Villamil Castellanos ',
           cargo: 'Responsable del equipo',
           centro: 'Dirección General',
         },
@@ -226,9 +226,55 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Nombre_responsable',
-          cargo: 'Nombre_rol',
-          centro: 'Nombre_centro_formación',
+          nombre: 'Wilmer Ismael Ángel Benavides',
+          cargo: 'Líder equipo / Asesor formación virtual',
+          centro: 'Centro Agroempresarial y Minero - Regional Bolívar',
+        },
+        {
+          nombre: 'Aura Andrea Sánchez Suárez',
+          cargo: 'E-Pedagoga',
+          centro: 'Centro Agroempresarial y Minero - Regional Bolívar',
+        },
+        {
+          nombre: 'Bibiana Lucía Camargo Romero',
+          cargo: 'E-Pedagoga',
+          centro: 'Centro de Comercio y Servicios - Regional Tolima ',
+        },
+        {
+          nombre: 'Diana Patricia Carmona Milian',
+          cargo: 'E-Pedagoga',
+          centro:
+            'Centro de Gestión y Desarrollo Sostenible Surcolombiano - Regional Huila',
+        },
+        {
+          nombre: 'Humberto Amaya Alvear',
+          cargo: 'E-Pedagogo',
+          centro: 'Centro Agroempresarial y Minero - Regional Bolívar ',
+        },
+        {
+          nombre: 'Laura Ivonne Rusinque Gamboa',
+          cargo: 'E-Pedagoga',
+          centro: 'Centro Agropecuario la Granja-Regional Tolima',
+        },
+        {
+          nombre: 'Marisol Báez Solano',
+          cargo: 'E-Pedagoga',
+          centro: 'Centro de Industria y la Construcción - Regional Tolima',
+        },
+        {
+          nombre: 'María Cecilia Aroca Díaz',
+          cargo: 'Soporte de seguimiento académico',
+          centro: 'Centro Agroempresarial y Minero - Regional Bolívar',
+        },
+        {
+          nombre: 'Diego Alejandro Córdoba Mavesoy',
+          cargo: 'Soporte de diseño y multimedia',
+          centro: 'Centro de Comercio y Servicios - Regional Tolima',
+        },
+        {
+          nombre: 'Andrés Felipe Velandia Espitia',
+          cargo: 'Evaluador instruccional',
+          centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },
       ],
     },
@@ -236,8 +282,18 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Nombre_responsable',
+          nombre: 'Oscar Ivan Uribe Ortiz ',
           cargo: 'Diseñador web',
+          centro: 'Centro de Comercio y Servicios - Regional Tolima',
+        },
+        {
+          nombre: 'José Jaime Luis Tang Pinzón ',
+          cargo: 'Diseñador web',
+          centro: 'Centro de Comercio y Servicios - Regional Tolima',
+        },
+        {
+          nombre: 'Veimar Celis Meléndez',
+          cargo: 'Desarrollador Fullstack',
           centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },
         {
@@ -246,7 +302,12 @@ export default {
           centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },
         {
-          nombre: 'Nombre_responsable',
+          nombre: 'Gilberto Junior Rodríguez Rodríguez',
+          cargo: 'Animación y producción audiovisual',
+          centro: 'Centro de Comercio y Servicios - Regional Tolima',
+        },
+        {
+          nombre: 'Ernesto Navarro Jaimes',
           cargo: 'Animación y producción audiovisual',
           centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },
@@ -256,17 +317,17 @@ export default {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
-          nombre: 'Nombre_responsable',
+          nombre: 'Norma Constanza Morales Cruz',
           cargo: 'Evaluación de contenidos inclusivos y accesibles',
           centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },
         {
-          nombre: 'Nombre_responsable',
+          nombre: 'Jorge Bustos Gómez',
           cargo: 'Validación de recursos educativos digitales',
           centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },
         {
-          nombre: 'Nombre_responsable',
+          nombre: 'Javier Mauricio Oviedo',
           cargo: 'Validación de recursos educativos digitales',
           centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },

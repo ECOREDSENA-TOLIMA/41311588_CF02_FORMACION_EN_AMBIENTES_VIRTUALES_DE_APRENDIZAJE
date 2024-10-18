@@ -91,7 +91,7 @@
       .col-lg-12.col-12
         p La lista de chequeo es el instrumento diseñado para la evaluación del desempeño del instructor virtual durante el desarrollo del proceso formativo. Los criterios a evaluar, a través de esta lista de chequeo son los enmarcados en las cinco (5) funciones del tutor virtual. Existe una o varias listas de chequeo, de acuerdo con cada modalidad de formación así: 
     
-        .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center.mb-5
       .col-lg-4.col-8.mb-lg-0.mb-4(data-aos="zoom-in")
         .tarjeta-avatar.h-100
           img(src='@/assets/curso/temas/tema1/img5.svg' alt='AvatarTop')
@@ -122,7 +122,7 @@
 
     .titulo-sexto.color-acento-contenido.offset-1(data-aos="zoom-in")
       h5 Figura 1.
-      span  #[i  Tablas de verdad]
+      span  #[i Modalidades y listas de chequeo]
 
     .row.justify-content-center.mb-5
       .col-md-10.desktop(data-aos="zoom-in")
@@ -167,7 +167,7 @@
     .row.justify-content-center.mb-5(data-aos="flip-up")
       .col-lg-12.col-12
         p Es necesario tener en cuenta que el instrumento tiene en consideración el seguimiento, de acuerdo con el tipo de vinculación con el SENA: carrera administrativa, provisionalidad o contrato de prestación de servicios.
-        p Las diferentes listas de chequeo se encuentran en el documento Guía de Orientaciones para la Formación en Ambientes Virtuales de Aprendizaje - AVA-. Este documento puede visualizarse desde el aplicativo de CompromISO del SENA.
+        p Las diferentes listas de chequeo se encuentran en el documento guía de orientaciones para la Formación en Ambientes Virtuales de Aprendizaje - FAVA-. Este documento puede visualizarse desde el aplicativo de CompromISO del SENA.
     
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-10

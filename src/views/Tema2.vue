@@ -13,7 +13,7 @@
           img(src='@/assets/curso/temas/tema2/img1.png', alt='Imagen decorativa')
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-12(data-aos="fade-left") 
-        p A continuación, encontrará lo que representa un LMS, así como las características que hacen parte de su adecuado funcionamiento. Se invita a profundizar sus conocimientos con el siguiente video:
+        p A continuación, se encontrará lo que representa un LMS, así como las características que hacen parte de su adecuado funcionamiento. Se invita a profundizar sus conocimientos con el siguiente video:
     
 
     .row.justify-content-center.mb-5(data-aos="flip-up")

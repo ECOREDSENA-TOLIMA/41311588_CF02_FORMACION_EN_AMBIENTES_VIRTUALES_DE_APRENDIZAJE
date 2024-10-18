@@ -73,7 +73,7 @@
     
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-12(data-aos="fade-left") 
-        p A continuación, se muestra la creación y configuración de algunas herramientas asincrónicas en el LMS SENA. La invitación es a que revise su funcionamiento y así tener las bases para aplicarlas en los espacios formativos: 
+        p A continuación, se muestra la creación y configuración de algunas herramientas asincrónicas en el LMS SENA. La invitación es a que se revise su funcionamiento y así tener las bases para aplicarlas en los espacios formativos: 
     
     .titulo.mb-5(data-aos="flip-up")
       img(src='@/assets/curso/temas/ico.svg', alt='Imagen decorativa')
