@@ -1,17 +1,17 @@
 <template lang="pug">
 .curso-main-container.pb-3
   BannerInterno
-  .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
+  .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-4
     .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span 3
       h1 Herramientas de comunicación sincrónicas y asincrónicas
     
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center.mb-4
       .col-lg-12(data-aos="flip-up")
         figure
           img(src='@/assets/curso/temas/tema3/img1.png', alt='Imagen decorativa')
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center.mb-4
       .col-lg-12(data-aos="fade-left") 
         p La característica más importante para fortalecer en la formación virtual es la interacción entre los participantes durante el proceso formativo. Esta comunicación se puede realizar a través de herramientas de comunicación integradas en el sistema de gestión de aprendizaje o a través de herramientas externas al mismo. Herramientas que se pueden clasificar en asincrónicas y sincrónicas.
     
@@ -20,15 +20,15 @@
     #t_3_1.titulo-segundo.color-acento-contenido(data-aos="flip-up")
       h2 3.1 Herramientas sincrónicas
     
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center.mb-4
       .col-lg-12(data-aos="fade-left") 
         p En los procesos formativos son necesarias herramientas que permitan a los instructores y aprendices interactuar en tiempo real y de forma simultánea, ya sea de manera escrita u oral, simulando un ambiente real presencial entre instructores y aprendices.
         p Dentro de este grupo de herramientas se tienen:
     
     .row.justify-content-center.p-5
       .col-12
-        .tarjeta.tarjeta--BG03.mb-5.p-5
-          SlyderB.mb-5(:datos="datosSlyder")
+        .tarjeta.tarjeta--BG03.mb-4.p-5
+          SlyderB.mb-4(:datos="datosSlyder")
 
 
     separador
@@ -36,12 +36,12 @@
     #t_3_2.titulo-segundo.color-acento-contenido(data-aos="flip-up")
       h2 3.2 Herramientas asincrónicas
 
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center.mb-4
       .col-lg-12(data-aos="fade-left") 
         p No es necesario tener una conexión en tiempo real para lograr el desarrollo del proceso formativo, incluso para los procesos comunicativos de los diferentes actores en el proceso pedagógico.
         p Estas herramientas presentan una gran ventaja a los usuarios, ya que les permite documentar y organizar de forma anticipada sus respuestas o los contenidos de sus participaciones. Dentro de estas herramientas se tienen: 
     
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center.mb-4
       .col-lg-10(data-aos="fade-left")
         LineaTiempoD.color-acento-botones
           .row(numero="1" titulo="Anuncios")
@@ -71,29 +71,23 @@
               figure
                 img(src='@/assets/curso/temas/tema3/img8.png', alt='Imagen decorativa')
     
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center.mb-4
       .col-lg-12(data-aos="fade-left") 
         p A continuación, se muestra la creación y configuración de algunas herramientas asincrónicas en el LMS SENA. La invitación es a que se revise su funcionamiento y así tener las bases para aplicarlas en los espacios formativos: 
     
-    .titulo.mb-5(data-aos="flip-up")
+    .titulo.mb-4(data-aos="flip-up")
       img(src='@/assets/curso/temas/ico.svg', alt='Imagen decorativa')
       h5.mb-0 Crear Blog
     
-    .row.justify-content-center.mb-5(data-aos="flip-up")
-      .col-lg-12.col-12
-        .titulo-sexto.color-acento-contenido
-          h5 Video 3. #[i Crear blog]
-
-    figure.mb-5(data-aos="zoom-in")
+    figure.mb-4(data-aos="zoom-in")
       .video
         iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
   
-    .row.justify-content-center.mb-5(data-aos="flip-up")
-      .col-lg-12.col-12
-        .titulo-sexto.color-acento-contenido
-          h5 Video 4. #[i Crear Wiki]
+    .titulo.mb-4(data-aos="flip-up")
+      img(src='@/assets/curso/temas/ico.svg', alt='Imagen decorativa')
+      h5.mb-0 Crear Wiki
 
-    figure.mb-5(data-aos="zoom-in")
+    figure.mb-4(data-aos="zoom-in")
       .video
         iframe(width="560" height="315" src="https://www.youtube.com/embed/gSninSSBtZU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
   

@@ -185,7 +185,7 @@ export default {
     {
       termino: 'LMS',
       significado:
-        'Sigla del término en inglés Learning Management System, que traducido al español hace referencia al Sistema de Gestión de Aprendizaje.',
+        'Sigla del término en inglés <em>Learning Management System</em>, que traducido al español hace referencia al sistema de gestión de aprendizaje.',
     },
     {
       termino: 'Sincrónica',
@@ -196,7 +196,7 @@ export default {
   referencias: [
     {
       referencia:
-        'Ángel, W. I. (2019). Guía de orientaciones para la formación en Ambientes Virtuales de Aprendizaje -AVA-. Servicio Nacional de Aprendizaje SENA.',
+        'Ángel, W. I. (2020). Guía de orientaciones para la formación en ambientes virtuales de aprendizaje -AVA-. Servicio Nacional de Aprendizaje SENA.',
       link: '',
     },
     {
