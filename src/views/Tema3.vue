@@ -74,15 +74,25 @@
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-12(data-aos="fade-left") 
         p A continuación, se muestra la creación y configuración de algunas herramientas asincrónicas en el LMS SENA. La invitación es a que se revise su funcionamiento y así tener las bases para aplicarlas en los espacios formativos: 
-    
-    .titulo.mb-4(data-aos="flip-up")
-      img(src='@/assets/curso/temas/ico.svg', alt='Imagen decorativa')
-      h5.mb-0 Crear Blog
-    
-    figure.mb-4(data-aos="zoom-in")
-      .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-  
+
+    //- .tarjeta debe ir acompañado de una de una de estas clases => 
+    //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
+    //- estas clases tambien tienen un modificador --borde
+    .tarjeta.color-secundario.p-3.mb-5
+      .row.justify-content-around.align-items-center
+        .col-3.col-sm-2.col-lg-1
+          img(src="@/assets/curso/temas/ico.svg")
+        .col
+          .row.justify-content-between.align-items-center
+            .col.mb-3.mb-sm-0
+              h3.mb-1 Crear blog
+              p Creación de blog, haga click en Descargar para acceder al recurso.   
+            .col-sm-auto
+              a.boton.color-acento-contenido.texto-blanco(:href="obtenerLink('/downloads/creablog.pdf')" target="_blank")
+                span Descargar
+                i.fas.fa-file-download
+
+
     .titulo.mb-4(data-aos="flip-up")
       img(src='@/assets/curso/temas/ico.svg', alt='Imagen decorativa')
       h5.mb-0 Crear Wiki
