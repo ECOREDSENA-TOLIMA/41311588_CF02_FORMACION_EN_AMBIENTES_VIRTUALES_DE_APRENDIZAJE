@@ -57,10 +57,10 @@
               .col-lg-12
                 h4.desktop Colaboración y comunicación
                 p Grupo de diferentes herramientas que permiten interactuar en opinión, preguntar y hablar a la comunidad educativa a través de texto, imagen o audio. Se pueden clasificar las herramientas de comunicación y colaboración como asincrónicas y sincrónicas. Este grupo de herramientas son las más utilizadas en procesos educativos #[i online]. 
-          .tarjeta.color-secundario.colorfondo.p-4(titulo="Seguimiento y evaluaciónn")            
+          .tarjeta.color-secundario.colorfondo.p-4(titulo="Seguimiento y evaluación")            
             .row.justify-content-center.align-items-center
               .col-lg-12
-                h4.desktop Seguimiento y evaluaciónn
+                h4.desktop Seguimiento y evaluación
                 p Son herramientas que permiten el seguimiento de los diferentes actores (instructores, aprendices, administradores) dentro del ambiente virtual, a nivel administrativo, así como los diferentes productos (tareas, evidencias, encuestas, calificaciones) que permitirán evidenciar la evaluación, seguimiento, trazabilidad y mejora continua de los procesos formativos del aprendiz.
 </template>
 

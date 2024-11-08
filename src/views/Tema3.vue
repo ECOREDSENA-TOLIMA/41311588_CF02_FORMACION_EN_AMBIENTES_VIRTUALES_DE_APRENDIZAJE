@@ -85,7 +85,7 @@
         .col
           .row.justify-content-between.align-items-center
             .col.mb-3.mb-sm-0
-              h3.mb-1 Crear blog
+              h5.mb-1 Crear Blog
               p Creación de blog, haga click en Descargar para acceder al recurso.   
             .col-sm-auto
               a.boton.color-acento-contenido.texto-blanco(:href="obtenerLink('/downloads/creablog.pdf')" target="_blank")

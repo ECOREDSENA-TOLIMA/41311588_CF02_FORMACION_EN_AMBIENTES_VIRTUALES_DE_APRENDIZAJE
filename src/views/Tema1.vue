@@ -134,7 +134,7 @@
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-4.col-lg-4.col-8(data-aos="zoom-in")
         figure
-          img(src='@/assets/curso/temas/tema1/img9.png', alt='Imagen que relaciona un ejemplo sobre las listas de chequeo en las tres modalidades, en ella se lleva a todo a partir de unos criterios establecidos.')
+          img(src='@/assets/curso/temas/tema1/img9.png', alt='')
 
       .col-lg-8
         p Cada criterio de la lista de chequeo corresponde a una función que debe desempeñar el instructor virtual y se le asigna una puntuación:
@@ -218,114 +218,155 @@
     .row.justify-content-center.mb-4(data-aos="flip-up")
       .col-lg-12.col-12
         p El alistamiento del ambiente LMS debe garantizar que todos los elementos que lo componen se encuentren en orden al momento del ingreso de los aprendices. Esta actividad no debe tomar más de un día hábil, posterior a la fecha registrada como inicio de la formación en el sistema de gestión académica (SOFIA Plus).
-
-
-    .row.justify-content-center.mb-3(data-aos="flip-up")
-      .col-lg-12.col-12
         p Las acciones a realizar en el momento del alistamiento son: 
 
     .row.justify-content-center.align-items-center.mb-4
-      .col-lg-10
-        .tarjeta.tarjeta--azul.tarjeta--BG03.p-4
-          SlyderA(tipo="b")
-            .row.justify-content-center.align-items-center
-              .col-md-11.mb-4.mb-md-0
-                h3 1.	Configuración del menú y entorno del LMS.
-              .col-md-10
-                figure.mb-4(data-aos="zoom-in")
+      .col-lg-10(data-aos="fade-left")
+        LineaTiempoD.color-acento-botones
+          .row(numero="1" titulo="Configuración del menú y entorno del LMS.")
+            .col-md-12.mb-4.mb-md-0
+              p Se debe explorar el LMS, reconocer los lugares recurrentes según las funciones a desempeñar y configurar de acuerdo con los lineamientos vigentes (Documento "Guía de Orientaciones a la Formación de Ambientes Virtuales de Aprendizaje -AVA- disponible en plataforma compromiso o equivalente vigente). Hay que tener en cuenta que dependiendo de las actualizaciones del LMS o de los programas de formación, el menú puede presentar cambios.
+              p A continuación, se presenta el procedimiento para la configuración general del curso en el LMS SENA:
+              figure.mb-4
                 .video
-                  iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-
-            .row.justify-content-center.align-items-center.my-lg-4
-              .col-md-11.mb-4.mb-md-0
-                h3 2.	Crear el perfil.
-
-              .col-md-10
-                figure.mb-4(data-aos="zoom-in")
+                  iframe(width="560" height="315" src="https://www.youtube.com/embed/Gaqm-Z_TyJU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+          .row(numero="2" titulo="Crear el perfil.")
+            .col-md-12.mb-4.mb-md-0
+              p Para crear correctamente el perfil bajo lineamientos SENA, es necesario crear un único perfil incluyendo:
+              ul.lista-ul--color
+                li
+                  i.fas.fa-angle-right
+                  | Información profesional: información académica y experiencia laboral relacionada con el programa a orientar. Máximo 500 caracteres.
+                li
+                  i.fas.fa-angle-right
+                  | Correo electrónico institucional: Misena o SENA.
+                li
+                  i.fas.fa-angle-right
+                  | Regional: centro de formación al que se encuentra asociado el instructor (evitar siglas) y ubicación (ciudad o municipio).
+                li
+                  i.fas.fa-angle-right
+                  | Foto del instructor: en formato documento de identidad.
+                li
+                  i.fas.fa-angle-right
+                  | Horario de atención sincrónico: estableciendo los días de atención, mínimo dos horas a la semana, indicando herramienta de comunicación en el LMS y enlace de ingreso si aplica.
+              P En el siguiente video se muestra los pasos para editar el perfil en el LMS SENA:
+              figure.mb-4
                 .video
-                  iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-
-            .row.justify-content-center.align-items-center.my-lg-4
-              .col-md-11.mb-4.mb-md-0
-                h3 3.	Configurar el cronograma de actividades.
-
-              .col-md-10
-                figure.mb-4(data-aos="zoom-in")
+                  iframe(width="560" height="315" src="https://www.youtube.com/embed/5UdQ2m9Hrx0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+          .row(numero="3" titulo="Configurar el cronograma de actividades")
+            .col-md-12.mb-4.mb-md-0
+              p Para configurar el cronograma de actividades, el instructor debe revisar previamente la estructura del cronograma, los resultados de aprendizaje, los criterios de evaluación y los contenidos temáticos.
+              p De esta forma estructurar las actividades enunciadas en la guía de aprendizaje, confirmando el orden, ajustando las fechas según la duración del programa de formación e indicando fecha de inicio y fecha final en cada resultado de aprendizaje. También debe planear y programar con fecha y hora las conferencias web.
+              p A continuación, se muestra el procedimiento para visualizar y editar el contenido del curso en el LMS SENA:
+              figure.mb-4
                 .video
-                  iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+                  iframe(width="560" height="315" src="https://www.youtube.com/embed/S3XdZLxtrjo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+          .row(numero="4" titulo="Verificar y activar los materiales")
+            .col-md-12.mb-4.mb-md-0
+              p El instructor debe garantizar la disponibilidad de todos los materiales del curso. Para esto se debe verificar: la disponibilidad de los documentos, recursos y actividades según fechas establecidas en el cronograma; que los enlaces del curso y externos funcionen correctamente, que las evidencias de aprendizaje programadas tengan fechas y enlaces para su envío y la adecuada visualización de la guía de aprendizaje. En caso de no encontrar algún material, debe crearlos a través de las herramientas disponibles en el LMS y conservando el orden dispuesto en las diferentes secciones.
+              p Para editar o publicar recursos en la plataforma, consulte los siguientes videos:
+              .row.justify-content-center.align-items-center.mb-5
+                .col-lg-6
+                  figure.mb-4
+                    .video
+                      iframe(width="560" height="315" src="https://www.youtube.com/embed/ZuG9B0W3u84" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+                .col-lg-6
+                  figure.mb-4
+                    .video
+                      iframe(width="560" height="315" src="https://www.youtube.com/embed/gKt0-Fd3z3w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
-            .row.justify-content-center.align-items-center.my-lg-4
-              .col-md-11.mb-4.mb-md-0
-                h3 4.	Verificar y activar los materiales.
-
-              .col-md-10
-                figure.mb-4(data-aos="zoom-in")
+          .row(numero="5" titulo="Configurar y crear los foros")
+            .col-md-12.mb-4.mb-md-0
+              p Según lineamientos SENA, el instructor debe verificar que estén creados o disponibles para desarrollar, los siguientes foros:
+              ul.lista-ul--color
+                li
+                  i.fas.fa-angle-right
+                  | Social: espacio para socializar entre los participantes del programa en aspectos humanos y profesionales, incentivando los procesos comunicativos. No tiene valoración en el Centro de Calificaciones.
+                li
+                  i.fas.fa-angle-right
+                  | Dudas e Inquietudes: espacio destinado única y exclusivamente a resolver inquietudes sobre el manejo de las herramientas del LMS o de las actividades a desarrollar. No tiene valoración en el Centro de Calificaciones.
+                li
+                  i.fas.fa-angle-right
+                  | Temáticos: espacios que permiten la discusión y construcción de conocimientos, planteados desde un enfoque motivacional, argumentativo, lúdico y de actualización tecnológica. El instructor es autónomo para activar los foros temáticos que desee durante el proceso formativo. Se caracterizan porque tienen una valoración en el Centro de Calificaciones.
+              p A continuación, se muestra el procedimiento para crear foros en LMS SENA:
+              figure.mb-4
                 .video
-                  iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+                  iframe(width="560" height="315" src="https://www.youtube.com/embed/bPsi8ToWKYg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
-            .row.justify-content-center.align-items-center.my-lg-4
-              .col-md-11.mb-4.mb-md-0
-                h3 5.	Configurar y crear los foros.
-
-              .col-md-11
-                figure.mb-4(data-aos="zoom-in")
+          .row(numero="6" titulo="Configurar y crear los anuncios")
+            .col-md-12.mb-4.mb-md-0
+              p Los anuncios son espacios de comunicación con el aprendiz, facilitan la orientación y desarrollo de las actividades del programa y permiten promover la motivación frente al proceso formativo. Según lineamiento SENA, los anuncios deben contener:
+              ul.lista-ul--color
+                li
+                  i.fas.fa-angle-right
+                  | Tres componentes: título, imagen y texto.
+                li
+                  i.fas.fa-angle-right
+                  | Dar respuesta a cinco preguntas básicas: ¿qué?, ¿quién?, ¿cuándo?, ¿dónde? y ¿cómo?
+                li
+                  i.fas.fa-angle-right
+                  | Un mensaje eficaz: excelente redacción, con párrafos claros y concretos.
+                li
+                  i.fas.fa-angle-right
+                  | Al menos una imagen, complemento de la información escrita, debidamente referenciada según normas APA.
+                li
+                  i.fas.fa-angle-right
+                  | Incluir la firma del instructor, la cual es el nombre completo.
+                p El instructor debe garantizar que el anuncio sea textual, es decir que no debe ser una imagen embebida; permitir que la información se lea en una sola captura de pantalla y garantizar la disponibilidad de la información durante todo el periodo formativo.
+                p Los anuncios a publicar en el alistamiento son: bienvenida e información del proceso o indicaciones del desarrollo el programa.
+                p A continuación, se muestra el procedimiento de creación de anuncios en el LMS SENA:
+              figure.mb-4
                 .video
-                  iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+                  iframe(width="560" height="315" src="https://www.youtube.com/embed/https://youtu.be/8Qi6WIyZb9c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
-            .row.justify-content-center.align-items-center.my-lg-4
-              .col-md-11.mb-4.mb-md-0
-                h3 6.	Configurar y crear los anuncios.
-
-              .col-md-10
-                figure.mb-4(data-aos="zoom-in")
+          .row(numero="7" titulo="Verificar los recursos.")
+            .col-md-12.mb-4.mb-md-0
+              p El instructor debe verificar que existan:
+              ul.lista-ul--color
+                li
+                  i.fas.fa-angle-right
+                  | Videos del manejo del LMS.
+                li
+                  i.fas.fa-angle-right
+                  | Tutoriales del manejo sistema de SOFIA Plus.
+                li
+                  i.fas.fa-angle-right
+                  | Link a la biblioteca SENA.
+                li
+                  i.fas.fa-angle-right
+                  | Los accesos al software o plugins necesarios para el desarrollo del programa.
+              figure
+                img(src='@/assets/curso/temas/tema3/img5.png', alt='Imagen decorativa')
+          .row(numero="8" titulo="Verificar información del centro de calificaciones.")
+            .col-md-12.mb-4.mb-md-0
+              p El instructor debe revisar el Centro de Calificaciones, verificando que contenga:
+              ul.lista-ul--color
+                li
+                  i.fas.fa-angle-right
+                  | Las columnas de las evidencias de cada resultado de aprendizaje, según el cronograma establecido.
+                li
+                  i.fas.fa-angle-right
+                  | El esquema de evaluación definido por el SENA (letras A: Aprobado y D: No aprobado).
+              p A continuación, se invita a conocer más sobre el Centro de Calificaciones:
+              figure.mb-4
                 .video
-                  iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-
-            .row.justify-content-center.align-items-center.my-lg-4
-              .col-md-11.mb-4.mb-md-0
-                h3 7.	Verificar los recursos.
-
-              .col-md-10
-                figure.mb-4(data-aos="zoom-in")
+                  iframe(width="560" height="315" src="https://www.youtube.com/embed/Lql4O0Ft0Pg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+          .row(numero="9" titulo="Visualización del curso – Rol Aprendiz")
+            .col-md-12.mb-4.mb-md-0
+              p Una vez se finalice la revisión y actualización de los elementos dispuestos en el LMS, se debe validar que todo esté visible para el aprendiz.  
+              p A continuación, se podrá identificar cómo hacerlo:
+              figure.mb-4
                 .video
-                  iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-
-            .row.justify-content-center.align-items-center.my-lg-4
-              .col-md-11.mb-4.mb-md-0
-                h3 8.	Verificar información del centro de calificaciones.
-
-              .col-md-10
-                figure.mb-4(data-aos="zoom-in")
-                .video
-                  iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-
-            .row.justify-content-center.align-items-center.my-lg-4
-              .col-md-4.mb-4.mb-md-0
-                h3 9. TIPS.
-                ol.lista-ol--cuadro
-                  li
-                  .lista-ol--cuadro__vineta
-                    span a
-                  | Si alguno o algunos de los elementos indicados no existieran el instructor debe crearlo conservando la unidad gráfica del programa.
-                  li
-                  .lista-ol--cuadro__vineta
-                    span b
-                  | Todos estos elementos indicados deben estar configurados desde el primer día.
-
-              .col-md-7
-                figure
-                  img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
-
-
-            .row.justify-content-center.align-items-center.my-lg-4
-              .col-md-11.mb-4.mb-md-0
-                h3 10.	 El alistamiento termina cuando el instructor asocia a los aprendices a la Ruta de Aprendizaje, cambiando así el estado de Inscrito a En formación, procedimiento que se realiza ingresando al sistema de SOFIA Plus.
-
-              .col-md-10
-                figure.mb-4(data-aos="zoom-in")
-                .video
-                  iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-
+                  iframe(width="560" height="315" src="https://www.youtube.com/embed/jv8EK4_7TYY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+    .row.justify-content-center.align-items-center.mb-4
+      .col-lg-12
+        .cajon.color-secundario.p-4
+          .row.justify-content-center.align-items-center
+            .col-lg-2.col-4.mb-lg-0.mb-4 
+              figure
+                img(src='@/assets/curso/temas/tema1/img10.svg', alt='Imagen decorativa')
+            .col-lg-10
+              p.mb-0 El alistamiento termina cuando el instructor asocia a los aprendices a la Ruta de Aprendizaje, cambiando así el estado de Inscrito a En formación, procedimiento que se realiza ingresando al sistema de SOFIA Plus.
 </template>
 
 <script>
