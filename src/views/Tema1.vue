@@ -140,7 +140,7 @@
         p Cada criterio de la lista de chequeo corresponde a una función que debe desempeñar el instructor virtual y se le asigna una puntuación:
         .row.justify-content-center.align-items-center
           .col-lg-10(data-aos="flip-up")
-            .cajon.color-primario.cajon2.p-3
+            .cajon.color-primario.cajon2.p-3.mb-3
               .row
                 .col-6
                   ul.lista-ul
@@ -223,14 +223,14 @@
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-10(data-aos="fade-left")
         LineaTiempoD.color-acento-botones
-          .row(numero="1" titulo="Configuración del menú y entorno del LMS.")
+          .row(numero="1" titulo="Configuración del menú y entorno del LMS")
             .col-md-12.mb-4.mb-md-0
               p Se debe explorar el LMS, reconocer los lugares recurrentes según las funciones a desempeñar y configurar de acuerdo con los lineamientos vigentes (Documento "Guía de Orientaciones a la Formación de Ambientes Virtuales de Aprendizaje -AVA- disponible en plataforma compromiso o equivalente vigente). Hay que tener en cuenta que dependiendo de las actualizaciones del LMS o de los programas de formación, el menú puede presentar cambios.
               p A continuación, se presenta el procedimiento para la configuración general del curso en el LMS SENA:
               figure.mb-4
                 .video
                   iframe(width="560" height="315" src="https://www.youtube.com/embed/Gaqm-Z_TyJU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-          .row(numero="2" titulo="Crear el perfil.")
+          .row(numero="2" titulo="Crear el perfil")
             .col-md-12.mb-4.mb-md-0
               p Para crear correctamente el perfil bajo lineamientos SENA, es necesario crear un único perfil incluyendo:
               ul.lista-ul--color
@@ -317,9 +317,9 @@
                 p A continuación, se muestra el procedimiento de creación de anuncios en el LMS SENA:
               figure.mb-4
                 .video
-                  iframe(width="560" height="315" src="https://www.youtube.com/embed/https://youtu.be/8Qi6WIyZb9c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+                  iframe(width="560" height="315" src="https://www.youtube.com/embed/8Qi6WIyZb9c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
-          .row(numero="7" titulo="Verificar los recursos.")
+          .row(numero="7" titulo="Verificar los recursos")
             .col-md-12.mb-4.mb-md-0
               p El instructor debe verificar que existan:
               ul.lista-ul--color
@@ -336,8 +336,8 @@
                   i.fas.fa-angle-right
                   | Los accesos al software o plugins necesarios para el desarrollo del programa.
               figure
-                img(src='@/assets/curso/temas/tema3/img5.png', alt='Imagen decorativa')
-          .row(numero="8" titulo="Verificar información del centro de calificaciones.")
+                img(src='@/assets/curso/temas/tema1/img12.png', alt='Imagen decorativa')
+          .row(numero="8" titulo="Verificar información del centro de calificaciones")
             .col-md-12.mb-4.mb-md-0
               p El instructor debe revisar el Centro de Calificaciones, verificando que contenga:
               ul.lista-ul--color
