@@ -11,7 +11,7 @@
       .col-lg-12(data-aos="flip-up")
         figure
           img(src='@/assets/curso/temas/tema3/img1.png', alt='Imagen decorativa')
-    .row.justify-content-center.align-items-center.mb-4
+    .row.justify-content-center.align-items-center
       .col-lg-12(data-aos="fade-left") 
         p La característica más importante para fortalecer en la formación virtual es la interacción entre los participantes durante el proceso formativo. Esta comunicación se puede realizar a través de herramientas de comunicación integradas en el sistema de gestión de aprendizaje o a través de herramientas externas al mismo. Herramientas que se pueden clasificar en asincrónicas y sincrónicas.
     
@@ -55,7 +55,7 @@
               p Es una herramienta que permite el intercambio de ideas, tanto para el aprendiz como el instructor; proceso que es realizado a través del envío de mensajes a una lista de participantes quedando los mensajes ordenados por hilos o temáticas de discusión.
               figure
                 img(src='@/assets/curso/temas/tema3/img5.png', alt='Imagen decorativa')
-          .row(numero="3" titulo="Blog")
+          .row(numero="3" titulo="<em>Blog</em>")
             .col-md-12.mb-4.mb-md-0
               p Es una herramienta al estilo de una bitácora virtual, la cual permite a una persona o grupo de personas, crear y difundir contenidos o reflexionar sobre sus ideas en forma cronológica e inmediata.
               figure
@@ -85,15 +85,15 @@
         .col
           .row.justify-content-between.align-items-center
             .col.mb-3.mb-sm-0
-              h5.mb-1 Crear Blog
-              p Creación de blog, haga click en Descargar para acceder al recurso.   
+              h5.mb-1 Crear <i>Blog</i>
+              p Creación de <i>blog</i>, haga clic en Descargar para acceder al recurso.   
             .col-sm-auto
               a.boton.color-acento-contenido.texto-blanco(:href="obtenerLink('/downloads/creablog.pdf')" target="_blank")
                 span Descargar
                 i.fas.fa-file-download
 
 
-    .titulo.mb-4(data-aos="flip-up")
+    .titulo.mb-5(data-aos="flip-up")
       img(src='@/assets/curso/temas/ico.svg', alt='Imagen decorativa')
       h5.mb-0 Crear Wiki
 
@@ -111,7 +111,7 @@ export default {
     // variables de vue
     datosSlyder: [
       {
-        titulo: 'Chat',
+        titulo: '<em>Chat</em>',
         texto:
           'Es un sistema de comunicación escrito que permite interactuar en tiempo real a los usuarios y es la herramienta más utilizada dentro del LMS.',
         imagen: require('@/assets/curso/temas/tema3/img2.png'),

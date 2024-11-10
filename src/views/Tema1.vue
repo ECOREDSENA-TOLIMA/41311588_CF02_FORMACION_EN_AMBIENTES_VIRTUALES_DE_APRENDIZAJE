@@ -11,14 +11,14 @@
       .col-lg-12(data-aos="flip-up")
         figure
           img(src='@/assets/curso/temas/tema1/img1.png', alt='Imagen decorativa')
-    .row.justify-content-center.align-items-center.mb-4
+    .row.justify-content-center.align-items-center
       .col-lg-12(data-aos="fade-left") 
         p El punto de partida para una excelente gestión en el proceso de enseñanza-aprendizaje-evaluación de la formación virtual, es que el gestor principal; es decir, el “instructor-tutor”, conozca todas sus funciones, las cuales están enmarcadas y relacionadas con las competencias que debe tener.
     separador
     
     #t_1_1.titulo-segundo.color-acento-contenido(data-aos="flip-up")
       h2 1.1 Funciones del instructor-tutor virtual
-    .row.justify-content-center.align-items-center.mb-4
+    .row.justify-content-center.align-items-center.mb-5
       .col-lg-10
         .cajon.color-secundario.p-4
           .row.justify-content-center.align-items-center
@@ -28,7 +28,7 @@
             .col-lg-10
               p.mb-0 El siguiente video, se detalla las funciones que debe tener el instructor-tutor dentro de la formación virtual, la cual es orientada bajo los parámetros institucionales que tiene el SENA:
     
-    .titulo.mb-4(data-aos="flip-up")
+    .titulo.mb-5(data-aos="flip-up")
       img(src='@/assets/curso/temas/ico.svg', alt='Imagen decorativa')
       h5.mb-0 Funciones del instructor
 
@@ -334,7 +334,7 @@
                   | Link a la biblioteca SENA.
                 li
                   i.fas.fa-angle-right
-                  | Los accesos al software o plugins necesarios para el desarrollo del programa.
+                  | Los accesos al <i>software</i> o <i>plugins</i> necesarios para el desarrollo del programa.
               figure
                 img(src='@/assets/curso/temas/tema1/img12.png', alt='Imagen decorativa')
           .row(numero="8" titulo="Verificar información del centro de calificaciones")

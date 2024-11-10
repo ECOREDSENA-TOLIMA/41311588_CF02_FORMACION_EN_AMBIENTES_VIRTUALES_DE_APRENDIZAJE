@@ -14,10 +14,10 @@
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-12(data-aos="fade-left") 
         p Es necesario que el instructor establezca la relación directa entre los lineamientos institucionales y las herramientas que puede utilizar, para llevar a cabo sus funciones en la plataforma de administración del aprendizaje (LMS), permitiendo evidenciar el avance desde lo tecnológico y lo pedagógico.
-        p El punto de partida es conocer el LMS SENA y el siguiente video realiza una contextualización al respecto, ya que se presenta todos los aspectos que indican lo que el LMS manejado por la institución posee:
+        p El punto de partida es conocer el LMS SENA y el siguiente video realiza una contextualización al respecto, ya que se presentan todos los aspectos que indican lo que el LMS manejado por la institución posee:
     
     
-    .titulo.mb-4(data-aos="flip-up")
+    .titulo.mb-5(data-aos="flip-up")
       img(src='@/assets/curso/temas/ico.svg', alt='Imagen decorativa')
       h5.mb-0 ¿Conoces el LMS SENA?
 
@@ -30,17 +30,17 @@
         p Ahora, se invita a conocer las particularidades del LMS SENA, desde los principales roles de un proceso formativo, por medio instructivos de navegación en los roles del instructor y el apendiz: 
 
     
-    .titulo.mb-4(data-aos="flip-up")
+    .titulo.mb-5(data-aos="flip-up")
       img(src='@/assets/curso/temas/ico.svg', alt='Imagen decorativa')
       h5.mb-0 Rol del Instructor
 
-    figure.mb-4(data-aos="zoom-in")
+    figure.mb-5(data-aos="zoom-in")
       .video
         iframe(width="560" height="315" src="https://www.youtube.com/embed/TdkQLmGe6Ws" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
 
     
-    .titulo.mb-4(data-aos="flip-up")
+    .titulo.mb-5(data-aos="flip-up")
       img(src='@/assets/curso/temas/ico.svg', alt='Imagen decorativa')
       h5.mb-0 Rol del Aprendiz
 

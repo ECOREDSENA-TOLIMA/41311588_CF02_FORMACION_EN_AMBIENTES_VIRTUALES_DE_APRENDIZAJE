@@ -129,7 +129,7 @@ export default {
       {
         icono: 'fas fa-file-pdf',
         titulo: 'Descargar PDF',
-        download: 'downloads/CFA_02_22310162_DU.pdf',
+        download: 'downloads/CFA_02_41311588_DU.zip',
       },
       {
         icono: 'fas fa-download',
@@ -293,12 +293,12 @@ export default {
         },
         {
           nombre: 'Veimar Celis Meléndez',
-          cargo: 'Desarrollador Fullstack',
+          cargo: 'Desarrollador <<em>Full stack</em>>',
           centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },
         {
           nombre: 'Diego Fernando Velasco Güiza',
-          cargo: 'Desarrollador Fullstack',
+          cargo: 'Desarrollador <em>Full stack</em>',
           centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },
         {

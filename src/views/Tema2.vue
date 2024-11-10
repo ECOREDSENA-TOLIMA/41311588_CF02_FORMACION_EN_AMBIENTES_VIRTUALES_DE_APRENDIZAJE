@@ -17,7 +17,7 @@
     
 
     
-    .titulo.mb-4(data-aos="flip-up")
+    .titulo.mb-5(data-aos="flip-up")
       img(src='@/assets/curso/temas/ico.svg', alt='Imagen decorativa')
       h5.mb-0 Entorno LMS
 
@@ -51,17 +51,17 @@
             .row.justify-content-center.align-items-center
               .col-lg-12
                 h4.desktop Distribución de contenidos
-                p El LMS tiene la capacidad de soportar diferentes fuentes de información, en forma de archivos, con diferentes extensiones de formatos “PDF, TXT, ZIP, RAR, HTML, ODT, JPG, PNG, etc.” y pueden ser organizados a través de carpetas o directorios. De igual manera, la información podrá ser visualizada en diferentes formas de presentación como: contenido interactivo, scorm, enlaces a páginas web, videos y etiquetas que permitan ser trabajadas con diversos elementos.
+                p.mt-3 El LMS tiene la capacidad de soportar diferentes fuentes de información, en forma de archivos, con diferentes extensiones de formatos “PDF, TXT, ZIP, RAR, HTML, ODT, JPG, PNG, etc.” y pueden ser organizados a través de carpetas o directorios. De igual manera, la información podrá ser visualizada en diferentes formas de presentación como: contenido interactivo, scorm, enlaces a páginas web, videos y etiquetas que permitan ser trabajadas con diversos elementos.
           .tarjeta.color-secundario.colorfondo.p-4(titulo="Colaboración y comunicación")            
             .row.justify-content-center.align-items-center
               .col-lg-12
                 h4.desktop Colaboración y comunicación
-                p Grupo de diferentes herramientas que permiten interactuar en opinión, preguntar y hablar a la comunidad educativa a través de texto, imagen o audio. Se pueden clasificar las herramientas de comunicación y colaboración como asincrónicas y sincrónicas. Este grupo de herramientas son las más utilizadas en procesos educativos #[i online]. 
+                p.mt-3 Grupo de diferentes herramientas que permiten interactuar en opinión, preguntar y hablar a la comunidad educativa a través de texto, imagen o audio. Se pueden clasificar las herramientas de comunicación y colaboración como asincrónicas y sincrónicas. Este grupo de herramientas son las más utilizadas en procesos educativos #[i online]. 
           .tarjeta.color-secundario.colorfondo.p-4(titulo="Seguimiento y evaluación")            
             .row.justify-content-center.align-items-center
               .col-lg-12
                 h4.desktop Seguimiento y evaluación
-                p Son herramientas que permiten el seguimiento de los diferentes actores (instructores, aprendices, administradores) dentro del ambiente virtual, a nivel administrativo, así como los diferentes productos (tareas, evidencias, encuestas, calificaciones) que permitirán evidenciar la evaluación, seguimiento, trazabilidad y mejora continua de los procesos formativos del aprendiz.
+                p.mt-3 Son herramientas que permiten el seguimiento de los diferentes actores (instructores, aprendices, administradores) dentro del ambiente virtual, a nivel administrativo, así como los diferentes productos (tareas, evidencias, encuestas, calificaciones) que permitirán evidenciar la evaluación, seguimiento, trazabilidad y mejora continua de los procesos formativos del aprendiz.
 </template>
 
 <script>
