@@ -2,28 +2,9 @@
   .curso-main-container.pb-3
     BannerInterno(icono="far fa-question-circle" titulo="Actividad didáctica")
     .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-      .row.mb-5.justify-content-center.align-items-center.align-items-lg-stretch
-          .col-6.col-md-4.col-lg-6.mb-4.mb-md-0(data-aos="fade-right")
-            .tarjeta.h-100.d-flex.align-items-center.p-4
-              figure
-                img(src="@/assets/curso/portada/banner-princiapal.svg", alt="Imagen decorativa")
-          .col-12.col-md-8.col-lg-6(data-aos="fade-left")
-            .titulo-segundo
-              h2 Lineamientos SENA
-            p.mb-4 Esta actividad le permitirá determinar el grado de apropiación de los contenidos del componente formativo.
-            p.mb-4 Antes de su realización, se recomienda la lectura del componente formativo mencionado. Es opcional (no es calificable), y puede realizarse todas las veces que se desee.
-            .titulo-segundo
-              h3.mb-4 #[b Lea la afirmación de cada item y luego señale la respuesta correcta según sus conocimientos del componente.]
-          
-            .tarjeta.actividad.p-3
-              .row.justify-content-around.align-items-center            
-                .col-sm.mb-3.mb-sm-0
-                  p.fw-bold.mb-0 Cuestionario
-                .col-auto
-                  a.boton.boton--b(:href="obtenerLink('/#/actividad1')" )
-                    span Realizar
-                    i.fas.fa-puzzle-piece
-      separador
+  
+      #Actividad                
+        <Actividad :cuestionario="cuestionario" />
   
   </template>
 
@@ -34,137 +15,176 @@ export default {
   components: { Actividad },
   data: () => ({
     cuestionario: {
-      tema:
-        'Lineamientos institucionales y administración educativa en los procesos de formación virtual',
-      titulo: 'Cuestionario - Lineamientos SENA',
-      introduccion:
-        '<b> Objetivo:</b> Determinar el actor o acción presente en los diferentes procedimientos SENA, basado en la acción formativa desarrollada en la institución.',
+      tema: 'Cuestionario',
+      titulo: 'Alistando el LMS SENA.',
+      objetivo:
+        '<b> Objetivo:</b> determinar las opciones a seguir en el alistamiento de un LMS, basado en los lineamientos institucionales que posee el SENA.',
+      info:
+        '<b>Lea cada enunciado referente a los temas desarrollados en el componente formativo y elija entre verdadero y falso según corresponda.</b>',
       barajarPreguntas: false,
+      presentacion: [
+        {
+          texto:
+            'Esta actividad le permitirá determinar el grado de apropiación de los contenidos del componente formativo Alistamiento en el LMS, según orientaciones institucionales para la formación virtual.<br>Antes de su realización, se recomienda la lectura del componente formativo mencionado. Es opcional (no es calificable), y puede realizarse todas las veces que se desee.',
+          imagen: '@/assets/curso/portada/banner-princiapal.png',
+        },
+      ],
       preguntas: [
         {
           id: 1,
           texto:
-            '<strong>Es el gestor principal del procedimiento de la ejecución de la formación profesional:</strong>',
+            'La formación a distancia no hace parte de las modalidades que se tienen en cuenta al momento de realizar las listas de chequeo a los instructores en su evaluación.',
           imagen: require('@/assets/componentes/pregunta_1.png'),
           barajarRespuestas: true,
           opciones: [
-            { id: 'a', texto: 'Aprendiz.', esCorrecta: false },
-            { id: 'b', texto: 'Instructor.', esCorrecta: true },
-            { id: 'c', texto: 'Coordinador.', esCorrecta: false },
-            { id: 'd', texto: 'Diseño Curricular.', esCorrecta: false },
+            { id: 'a', texto: 'Falso', esCorrecta: true },
+            { id: 'b', texto: 'Verdadero', esCorrecta: false },
           ],
           mensaje_correcto:
-            '¡Muy bien! El instructor es el actor principal de este proceso.',
+            'Muy bien. Esta modalidad está presente al momento de evaluar desempeño del instructor virtual durante el desarrollo del proceso formativo.',
           mensaje_incorrecto:
             'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 2,
-          texto: '<b>No es una formación ofrecida por EL SENA:</b>',
+          texto:
+            'La realización de la lista de chequeo implementada al instructor por su coordinador académico o supervisor de contrato, tiene un único momento de aplicación que es después del alistamiento.',
           imagen: require('@/assets/componentes/pregunta_2.png'),
           barajarRespuestas: true,
           opciones: [
-            { id: 'a', texto: 'Virtual.', esCorrecta: false },
-            { id: 'b', texto: 'Presencial.', esCorrecta: false },
-            { id: 'c', texto: 'Personal.', esCorrecta: true },
-            { id: 'd', texto: 'A distancia.', esCorrecta: false },
+            { id: 'a', texto: 'Falso', esCorrecta: true },
+            { id: 'b', texto: 'Verdadero', esCorrecta: false },
           ],
           mensaje_correcto:
-            '¡Muy bien! Este tipo de formación no es aplicada en el SENA.',
+            'Muy bien. Esta lista de chequeo tiene un segundo momento de aplicación y es después del cierre de la formación.',
           mensaje_incorrecto:
             'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 3,
           texto:
-            '<b>No hace parte de una competencia asociada al instructor:</b>',
+            'Dentro de la ejecución de la formación virtual, el momento que mayor parte de tiempo se lleva en un proceso formativo es el alistamiento.',
           imagen: require('@/assets/componentes/pregunta_3.png'),
           barajarRespuestas: false,
           opciones: [
-            { id: 'a', texto: 'Comunicativa.', esCorrecta: false },
-            { id: 'b', texto: 'Conductual.', esCorrecta: true },
-            { id: 'c', texto: 'Técnica.', esCorrecta: false },
-            { id: 'd', texto: 'Específica.', esCorrecta: false },
+            { id: 'a', texto: 'Falso', esCorrecta: true },
+            { id: 'b', texto: 'Verdadero', esCorrecta: false },
           ],
           mensaje_correcto:
-            '¡Muy bien! Tiene claro cuáles son las competencias asociadas al instructor.',
+            'Excelente interpretación. Puesto que, aunque el alistamiento hace parte de un momento de la ejecución, este no es el que mayor tiempo consume, ya que dicho momento es la ejecución.',
           mensaje_incorrecto:
             'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 4,
           texto:
-            '<b>Indique cuáles son los momentos presentes en un curso:</b>',
+            'Un anuncio es considerado como una herramienta asincrónica, ya que, aunque informa a los aprendices, no lo hace en tiempo real.',
           imagen: require('@/assets/componentes/pregunta_4.png'),
           barajarRespuestas: false,
           opciones: [
-            { id: 'a', texto: 'Inicio y fin.', esCorrecta: false },
-            {
-              id: 'b',
-              texto: 'Depende del tipo de formación.',
-              esCorrecta: false,
-            },
-            {
-              id: 'c',
-              texto: 'Antes, al inicio, durante y al finalizar.',
-              esCorrecta: true,
-            },
-            {
-              id: 'd',
-              texto: 'Inscripción, ficha, formación, graduación.',
-              esCorrecta: false,
-            },
+            { id: 'a', texto: 'Falso', esCorrecta: false },
+            { id: 'b', texto: 'Verdadero', esCorrecta: true },
           ],
           mensaje_correcto:
-            '¡Muy bien! Reconoce cuáles son los momentos que se dan durante un curso.',
+            'Excelente. El anuncio hace parte de las muchas herramientas asincrónicas que se pueden llevar a cabo en el LMS.',
           mensaje_incorrecto:
             'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 5,
           texto:
-            '<b>Son los dos sistemas de gestión académica utilizados por el SENA:</b>',
+            'La temporalidad no está catalogada como una característica del LMS, sino más bien como un proceso de mejora de este.',
           imagen: require('@/assets/componentes/pregunta_1.png'),
-          barajarRespuestas: true,
+          barajarRespuestas: false,
           opciones: [
-            { id: 'a', texto: 'CompromISO y el LMS.', esCorrecta: false },
-            {
-              id: 'b',
-              texto: 'Centro de calificaciones y repositorio.',
-              esCorrecta: false,
-            },
-            { id: 'c', texto: 'SofiaPlus y el LMS.', esCorrecta: true },
-            {
-              id: 'd',
-              texto: 'Inventario y Diseño Curricular.',
-              esCorrecta: false,
-            },
+            { id: 'a', texto: 'Falso', esCorrecta: true },
+            { id: 'b', texto: 'Verdadero', esCorrecta: false },
           ],
           mensaje_correcto:
-            '¡Muy bien! Estos son los sistemas utilizados por el SENA en la gestión académica.',
+            'Muy bien. La temporalidad si hace parte de las características del LMS y esta hace referencia a los procesos de aprendizajes que se dan y que no tienen una restricción horaria.',
           mensaje_incorrecto:
             'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 6,
           texto:
-            '<b>ES uno de los roles principales asociados a SofiaPlus:</b>',
+            'El seguimiento y la evaluación es una de las herramientas que hace parte del LMS.',
           imagen: require('@/assets/componentes/pregunta_2.png'),
           barajarRespuestas: false,
           opciones: [
-            { id: 'a', texto: 'Coordinador.', esCorrecta: false },
-            { id: 'b', texto: 'Gestor.', esCorrecta: false },
-            { id: 'c', texto: 'Fichas.', esCorrecta: false },
-            { id: 'd', texto: 'Aspirante.', esCorrecta: true },
+            { id: 'a', texto: 'Falso', esCorrecta: false },
+            { id: 'b', texto: 'Verdadero', esCorrecta: true },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Excelente trabajo. Esta es una herramienta que se aplica para hacer seguimiento evaluativo, tanto a los instructores, como a los aprendices y los coordinadores.',
+          mensaje_incorrecto:
+            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
+        },
+        {
+          id: 7,
+          texto:
+            'Las herramientas asincrónicas permiten a los instructores y aprendices interactuar en tiempo real.',
+          imagen: require('@/assets/componentes/pregunta_3.png'),
+          barajarRespuestas: false,
+          opciones: [
+            { id: 'a', texto: 'Falso', esCorrecta: true },
+            { id: 'b', texto: 'Verdadero', esCorrecta: false },
+          ],
+          mensaje_correcto:
+            'Excelente trabajo. Estas herramientas no se llevan a cabo en tiempo real.',
+          mensaje_incorrecto:
+            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
+        },
+        {
+          id: 8,
+          texto:
+            'Dentro de las herramientas sincrónicas se encuentran los blogs.',
+          imagen: require('@/assets/componentes/pregunta_4.png'),
+          barajarRespuestas: false,
+          opciones: [
+            { id: 'a', texto: 'Falso', esCorrecta: true },
+            { id: 'b', texto: 'Verdadero', esCorrecta: false },
+          ],
+          mensaje_correcto:
+            'Muy bien. Aunque los blogs son una herramienta SENA, no hacen parte de las sincrónicas, sino de las asincrónicas, las cuales no se dan en tiempo real.',
+          mensaje_incorrecto:
+            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
+        },
+        {
+          id: 9,
+          texto:
+            'La asignación de cursos a los instructores la realizan los coordinadores académicos de los respectivos centros de formación.',
+          imagen: require('@/assets/componentes/pregunta_1.png'),
+          barajarRespuestas: false,
+          opciones: [
+            { id: 'a', texto: 'Falso', esCorrecta: false },
+            { id: 'b', texto: 'Verdadero', esCorrecta: true },
+          ],
+          mensaje_correcto:
+            'Excelente trabajo. La asignación de cursos la realizan los coordinadores.',
+          mensaje_incorrecto:
+            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
+        },
+        {
+          id: 10,
+          texto:
+            'El tipo de vinculación que se tiene en el SENA es de carrera administrativa, provisionalidad o contrato de prestación de servicios.',
+          imagen: require('@/assets/componentes/pregunta_2.png'),
+          barajarRespuestas: false,
+          opciones: [
+            { id: 'a', texto: 'Falso', esCorrecta: false },
+            { id: 'b', texto: 'Verdadero', esCorrecta: true },
+          ],
+          mensaje_correcto:
+            'Muy bien. Estos son los tipos de vinculación que se tienen en la institución.',
+          mensaje_incorrecto:
+            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },
       ],
       mensaje_final_aprobado:
-        '¡Muy bien! Este es uno de los roles principales de SofiaPlus, junto el del instructor, aprendiz y funcionario.',
+        '¡Felicitaciones! Ha superado la actividad, demostrando los conocimientos apropiados sobre la temática vista en este componente formativo.',
       mensaje_final_reprobado:
-        'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
+        '¡Lo siento! No ha superado la actividad. Pero, recuerde que puede volver a revisar el componente formativo e intentarlo nuevamente.',
     },
   }),
   computed: {},

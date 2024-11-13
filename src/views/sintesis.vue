@@ -10,7 +10,7 @@
         figure
           img(src="@/assets/curso/temas/sintesis.svg", alt="Imagen que contiene el mapa conceptual del componente formativo, el cual relaciona que para que haya un adecuado alistamiento del LMS SENA, debe iniciarse una gestión FAVA, listas de chequeo, ejecución y alistamiento de la formación, mediante herramientas y procesos sincrónicos y asincrónicos.")
       .col-auto(data-aos="fade-left")
-        a.anexo.mb-4(:href="obtenerLink('/downloads/sintesis.pdf')" target="_blank")
+        a.anexo.mb-4(:href="obtenerLink('/downloads/sintesis_1.pdf')" target="_blank")
           .anexo__icono
             img(src="@/assets/template/icono-pdf.svg" )
           .anexo__texto

@@ -3,7 +3,7 @@ export default {
     componenteFormativo:
       'Alistamiento en el LMS, según orientaciones institucionales para la formación virtual',
     descripcionCurso:
-      'El alistamiento en un LMS hace referencia al proceso de preparar y organizar todos los materiales y actividades necesarias para implementar un curso programa de formación virtual. Un alistamiento adecuado garantiza una experiencia de aprendizaje fluida y efectiva.',
+      'El alistamiento en un LMS hace referencia al proceso de preparar y organizar todos los materiales y actividades necesarias para implementar un curso o programa de formación virtual. Un alistamiento adecuado garantiza una experiencia de aprendizaje fluida y efectiva.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
@@ -293,7 +293,7 @@ export default {
         },
         {
           nombre: 'Veimar Celis Meléndez',
-          cargo: 'Desarrollador <<em>Full stack</em>>',
+          cargo: 'Desarrollador <em>Full stack</em>',
           centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },
         {

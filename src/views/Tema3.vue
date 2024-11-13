@@ -65,9 +65,9 @@
               p Herramienta que brinda un espacio de página web donde se permite la construcción y difusión de conocimiento colaborativo; conocimiento construido a través de la edición (agregar, editar, eliminar) de los contenidos por cada uno de los usuarios que conforman la comunidad. En el ámbito educativo, incentiva al aprendiz a integrar la tecnología con el proceso de aprendizaje.
               figure
                 img(src='@/assets/curso/temas/tema3/img7.png', alt='Imagen decorativa')
-          .row(numero="5" titulo="Correo electrónico – webmail")
+          .row(numero="5" titulo="Correo electrónico – <em>webmail</em>")
             .col-md-12.mb-4.mb-md-0
-              p Los LMS deben incorporar un sistema de correo electrónico o webmail, el cual está limitado a los aprendices e instructores del curso, con el fin de comunicarse durante el desarrollo del proceso formativo de forma grupal o individual.
+              p Los LMS deben incorporar un sistema de correo electrónico o #[i webmail], el cual está limitado a los aprendices e instructores del curso, con el fin de comunicarse durante el desarrollo del proceso formativo de forma grupal o individual.
               figure
                 img(src='@/assets/curso/temas/tema3/img8.png', alt='Imagen decorativa')
     

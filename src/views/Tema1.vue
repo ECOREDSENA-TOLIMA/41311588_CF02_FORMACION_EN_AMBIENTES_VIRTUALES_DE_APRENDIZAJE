@@ -166,7 +166,7 @@
     .row.justify-content-center.mb-4(data-aos="flip-up")
       .col-lg-12.col-12
         p Es necesario tener en cuenta que el instrumento tiene en consideración el seguimiento, de acuerdo con el tipo de vinculación con el SENA: carrera administrativa, provisionalidad o contrato de prestación de servicios.
-        p Las diferentes listas de chequeo se encuentran en el documento #[b guía de orientaciones para la Formación en Ambientes Virtuales de Aprendizaje - FAVA-]. Este documento puede visualizarse desde el aplicativo de CompromISO del SENA.
+        p Las diferentes listas de chequeo se encuentran en el documento #[b Guía de orientaciones para la Formación en Ambientes Virtuales de Aprendizaje - FAVA-]. Este documento puede visualizarse desde el aplicativo de CompromISO del SENA.
     
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-10
@@ -225,7 +225,7 @@
         LineaTiempoD.color-acento-botones
           .row(numero="1" titulo="Configuración del menú y entorno del LMS")
             .col-md-12.mb-4.mb-md-0
-              p Se debe explorar el LMS, reconocer los lugares recurrentes según las funciones a desempeñar y configurar de acuerdo con los lineamientos vigentes (Documento "Guía de Orientaciones a la Formación de Ambientes Virtuales de Aprendizaje -AVA- disponible en plataforma compromiso o equivalente vigente). Hay que tener en cuenta que dependiendo de las actualizaciones del LMS o de los programas de formación, el menú puede presentar cambios.
+              p Se debe explorar el LMS, reconocer los lugares recurrentes según las funciones a desempeñar y configurar de acuerdo con los lineamientos vigentes (Documento "Guía de Orientaciones a la Formación de Ambientes Virtuales de Aprendizaje -AVA-" disponible en plataforma compromiso o equivalente vigente). Hay que tener en cuenta que dependiendo de las actualizaciones del LMS o de los programas de formación, el menú puede presentar cambios.
               p A continuación, se presenta el procedimiento para la configuración general del curso en el LMS SENA:
               figure.mb-4
                 .video
@@ -331,10 +331,10 @@
                   | Tutoriales del manejo sistema de SOFIA Plus.
                 li
                   i.fas.fa-angle-right
-                  | Link a la biblioteca SENA.
+                  p.mb-0 <em>Link</em> a la biblioteca SENA.
                 li
                   i.fas.fa-angle-right
-                  | Los accesos al <i>software</i> o <i>plugins</i> necesarios para el desarrollo del programa.
+                  p.mb-0 Los accesos al <em>software</em> o <em>plugins</em> necesarios para el desarrollo del programa.
               figure
                 img(src='@/assets/curso/temas/tema1/img12.png', alt='Imagen decorativa')
           .row(numero="8" titulo="Verificar información del centro de calificaciones")
@@ -364,7 +364,7 @@
           .row.justify-content-center.align-items-center
             .col-lg-2.col-4.mb-lg-0.mb-4 
               figure
-                img(src='@/assets/curso/temas/tema1/img10.svg', alt='Imagen decorativa')
+                img(src='@/assets/curso/temas/tema1/img13.svg', alt='Imagen decorativa')
             .col-lg-10
               p.mb-0 El alistamiento termina cuando el instructor asocia a los aprendices a la Ruta de Aprendizaje, cambiando así el estado de Inscrito a En formación, procedimiento que se realiza ingresando al sistema de SOFIA Plus.
 </template>
