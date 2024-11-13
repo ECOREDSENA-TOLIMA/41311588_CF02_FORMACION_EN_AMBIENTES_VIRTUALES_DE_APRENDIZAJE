@@ -34,7 +34,7 @@
 
     figure.mb-4(data-aos="zoom-in")
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/6l3cfGDRk5k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/RfTfDC0qw3g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     
     .row.justify-content-center.mb-4(data-aos="flip-up")
       .col-lg-12.col-12
@@ -357,7 +357,7 @@
               p A continuación, se podrá identificar cómo hacerlo:
               figure.mb-4
                 .video
-                  iframe(width="560" height="315" src="https://www.youtube.com/embed/jv8EK4_7TYY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+                  iframe(width="560" height="315" src="https://www.youtube.com/embed/kHg_C2DiDPA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-12
         .cajon.color-secundario.p-4
