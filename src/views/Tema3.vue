@@ -95,7 +95,7 @@
 
     .titulo.mb-5(data-aos="flip-up")
       img(src='@/assets/curso/temas/ico.svg', alt='Imagen decorativa')
-      h5.mb-0 Crear Wiki
+      h5.mb-0 Crear Wikis
 
     figure.mb-4(data-aos="zoom-in")
       .video
